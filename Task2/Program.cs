@@ -15,7 +15,8 @@ void coordinates(int x1, int y1, int z1, int x2, int y2, int z2)
 {
     int sum = (x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) + (z2-z1)*(z2-z1);
     double root = Convert.ToDouble(Math.Sqrt(sum));
-    Console.WriteLine(root);
+    double root1 = Math.Round(root, 2);
+    Console.WriteLine(root1);
 
 }
 
